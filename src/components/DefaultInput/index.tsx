@@ -1,11 +1,11 @@
 import S from './styles.module.css';
 
-interface IForm extends React.ComponentProps<'input'> {
+interface IDefaultInput extends React.ComponentProps<'input'> {
   labelText: string;
   id: string;
 }
 
-export const DefaultInput = ({ labelText, id, ...rest }: IForm) => {
+export const DefaultInput = ({ labelText, id, ...rest }: IDefaultInput) => {
   return (
     <>
       <label htmlFor={id}>{labelText}</label>
