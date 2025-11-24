@@ -10,6 +10,7 @@ import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaultButton';
 import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 import { useState } from 'react';
+import { Footer } from './components/Footer';
 
 export const App = () => {
   const [buttonClicked, isButtonClicked] = useState(false);
@@ -62,6 +63,9 @@ export const App = () => {
             )}
           </div>
         </form>
+      </Container>
+      <Container>
+        <Footer />
       </Container>
     </>
   );
