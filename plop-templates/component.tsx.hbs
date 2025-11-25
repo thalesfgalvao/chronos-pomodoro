@@ -1,0 +1,13 @@
+import S from './styles.module.css';
+
+interface I{{name}} {
+  children?: React.ReactNode;
+}
+
+export const {{name}} = ({ children }: I{{name}}) => {
+  return (
+  <div className={S.root}>
+    {children}
+  </div>
+  );
+};
