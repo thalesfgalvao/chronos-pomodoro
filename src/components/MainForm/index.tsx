@@ -16,7 +16,7 @@ export const MainForm = () => {
       </div>
 
       <div className='formRow'>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>O próximo intervalo é de 25m</p>
       </div>
 
       <div className='formRow'>
