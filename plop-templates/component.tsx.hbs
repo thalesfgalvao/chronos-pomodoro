@@ -4,7 +4,7 @@ interface I{{name}}Props {
   children?: React.ReactNode;
 }
 
-export const {{name}} = ({ children }: I{{name}}) => {
+export const {{name}} = ({ children }: I{{name}}Props) => {
   return (
     <div className={S.root}>
       {children}
