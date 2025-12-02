@@ -6,8 +6,8 @@ import './styles/theme.css';
 
 const initialState: TaskStateModel = {
   tasks: [],
-  secondsRemainig: '00:00',
-  formattedSecondsRemaining: 0,
+  secondsRemainig: 0,
+  formattedSecondsRemaining: '00:00',
   activeTask: null,
   currentCycle: 0,
   config: {
